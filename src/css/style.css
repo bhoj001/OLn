@@ -3,7 +3,8 @@ html,body{
 	width: 100%;
 	height: 100%;
 	max-height: 100%;
-	background: #f9f9f9
+	background: #f9f9f9;
+	
 }
 
 
@@ -14,6 +15,7 @@ html,body{
 	font-size: 1.2em;
 	width: 100%;
 	color:black!important;
+	
 }
 .navbar h1{
 	text-decoration: underline #1abc9c;
@@ -115,7 +117,10 @@ footer{
 .landing-text h3{
 	font-size: 220%;
 }
-
+/* link color */
+a{
+	color:#1abc9c
+}
 /* Button style */
 
 .landing-text a#btn_get_started {
@@ -150,3 +155,14 @@ footer a h3, footer p{
 	bottom: 0px;
 	
 }
+/* media query for footer for mobile view*/
+.footer-height{
+	height: 60%;
+}
+@media(max-width: 768px){
+	.footer-height{
+		height: 100%;
+	}
+	
+	
+	}
