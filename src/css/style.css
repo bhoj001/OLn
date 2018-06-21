@@ -63,9 +63,7 @@ html,body{
 	font-size: 200%;
 	font-weight: 700;
 }
-.padding{
- 	padding: 80px 0px;
-}
+
 
 .padding img{
  	width:100%;
@@ -110,6 +108,7 @@ footer{
 	text-shadow: 3px 3px #098fa8;
 
 }
+
 
 .landing-text h1{
 	font-size: 350%;
